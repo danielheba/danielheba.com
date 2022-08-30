@@ -1,0 +1,46 @@
+span.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+div.letter
+{
+    position: relative;
+    margin: 0;
+    text-align: center;
+    float:left;
+    transform: rotateY(-90deg);
+}
+
+div.letter_D {animation: logoD 15s ease 1s infinite alternate;}
+div.letter_A {animation: logoA 15s ease 1s infinite alternate;}
+div.letter_N {animation: logoN 15s ease 1s infinite alternate;}
+div.letter_I {animation: logoI 15s ease 1s infinite alternate;}
+div.letter_E {animation: logoE 15s ease 1s infinite alternate;}
+div.letter_L {animation: logoL 15s ease 1s infinite alternate;}
+div.letter_H {animation: logoH 15s ease 1s infinite alternate;}
+div.letter_E2 {animation: logoE2 15s ease 1s infinite alternate;}
+div.letter_B {animation: logoB 15s ease 1s infinite alternate;}
+div.letter_A2 {animation: logoA2 15s ease 1s infinite alternate;}
+
+@keyframes logoD { 0% {} 10% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoA { 0% {transform: rotateY(-90deg);} 5% { transform: rotateY(-90deg);} 15% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoN { 0% {transform: rotateY(-90deg);} 10% { transform: rotateY(-90deg);} 20% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoI { 0% {transform: rotateY(-90deg);} 15% { transform: rotateY(-90deg);} 25% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoE { 0% {transform: rotateY(-90deg);} 20% { transform: rotateY(-90deg);} 30% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoL { 0% {transform: rotateY(-90deg);} 25% { transform: rotateY(-90deg);} 35% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoH { 0% {transform: rotateY(-90deg);} 30% { transform: rotateY(-90deg);} 40% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoE2 { 0% {transform: rotateY(-90deg);} 35% { transform: rotateY(-90deg);} 45% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoB { 0% {transform: rotateY(-90deg);} 40% { transform: rotateY(-90deg);} 50% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+@keyframes logoA2 { 0% {transform: rotateY(-90deg);} 45% { transform: rotateY(-90deg);} 55% { transform: rotateY(0deg);} 100% { transform: rotateY(0deg);}}
+
+
+div.domain_text
+{
+    margin: 0px 0px;
+    color:cadetblue;
+    opacity: 0;
+    animation: domain 15s ease-in-out 5s infinite alternate;
+}
+@keyframes domain { 0% {opacity: 0;}  50% {opacity: 1;} 90% {opacity: 1;} 100% { opacity: 0;}}

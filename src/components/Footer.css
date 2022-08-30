@@ -1,0 +1,14 @@
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgba(245,245,245,.3);
+}
+.footer p
+{
+    line-height: 25px;
+    color: #aaa;
+}
+.footer a
+{
+    color: #aaa;
+}
